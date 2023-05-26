@@ -18,6 +18,11 @@ body{
     margin: 10px auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .img-container{
@@ -42,6 +47,8 @@ img{
 }
 
 .attribution{
-    display: flex;
-    place-content: center;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
