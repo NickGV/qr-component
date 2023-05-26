@@ -11,8 +11,6 @@ body{
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     min-height: 100vh;
-    display: flex;
-    align-items: center;
 }
 
 .container{
@@ -41,4 +39,9 @@ img{
 .text-container p {
     color: hsl(220, 15%, 55%);
     padding: 10px;
+}
+
+.attribution{
+    display: flex;
+    place-content: center;
 }
